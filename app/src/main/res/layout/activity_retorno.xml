@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02004B"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".Retorno">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/emailAddress"
+        android:layout_width="300.75dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:text="@string/email"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:translationX="50dp" />
+
+    <TextView
+        android:id="@+id/turma"
+        android:layout_width="300.75dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:text="@string/turma"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:translationX="50dp"
+        android:translationY="50dp" />
+
+    <TextView
+        android:id="@+id/situacao"
+        android:layout_width="300.75dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:text="@string/situa_o"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:translationX="50dp"
+        android:translationY="100dp" />
+
+</LinearLayout>
+
